@@ -5,7 +5,7 @@ api_key = 'xxxxxxx'
 queryApi = QueryApi(api_key=api_key)
 results = []
 # Query string
-query_string = "filedAt:{2010-01-01 TO 2011-01-01} AND formType:\"10-K\""
+query_string = "filedAt:{2000-01-01 TO 2023-01-01} AND formType:\"10-K\""
 
 # The maximum size for each API call
 size = 200
