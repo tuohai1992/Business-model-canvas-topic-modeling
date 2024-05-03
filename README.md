@@ -15,7 +15,8 @@ Execute HPC 10-k report extraction.py to Identify HPC related business report by
 
 ## 3. Extract business model canvas from HPC-related 10-k report using GPT3.5 :
 
-Business_model_canvas_extraction_prompt.py contains the prompt to Extract business model canvas from HPC-related 10-k report in dictionary format using GPT3.5 or GPT 4 API:
+Business_model_canvas_extraction_prompt.py contains the prompt to Extract business model canvas (BMC) from HPC-related 10-k report in dictionary format using GPT3.5 or GPT 4 API:
+The extracted BMCs are saved in csv file 10K_report_BM_cleaned_all.csv.
 
 
 ## 4. Dentify healthcare related business model canvas:
