@@ -17,7 +17,7 @@ import re
 
 extractorApi = ExtractorApi("xxx")
 
-# 关键词列表
+
 hpc_keywords = [
     "high performance computing",
     "high-performance computing",
@@ -60,7 +60,7 @@ def keyword_in_text(keywords, text):
 
 # iterate over the rows of the DataFrame
 for link in df['linkToHtml']:
-    if indexes % 500 == 0:  # 检查索引值是否能被1000整除
+    if indexes % 500 == 0:  
         print(indexes)
         print(datetime.datetime.now())
     try:
@@ -72,7 +72,7 @@ for link in df['linkToHtml']:
         indexes += 1
         continue  
 
-    # BeautifulSoup解HTML
+    # BeautifulSoup HTML
     section_text = BeautifulSoup(section_text, 'html.parser')
 
 
